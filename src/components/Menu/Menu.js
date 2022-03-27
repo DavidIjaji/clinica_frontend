@@ -5,16 +5,16 @@ function Menu() {
   return (
     <ul className="menu flex">
       <li>
-        <Link to="peliculas">Peliculas</Link>
+        <Link to="inicio">Inicio</Link>
       </li>
       <li>
-        <Link to="series">Series</Link>
+        <Link to="cita">Pide tu cita</Link>
       </li>
       <li>
-        <Link to="premios">Premios</Link>
+        <Link to="inicio">Iniciar sesion</Link>
       </li>
       <li>
-        <Link to="actores">Actores</Link>
+        <Link to="registro">Registrate</Link>
       </li>
     </ul>
   );
