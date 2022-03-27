@@ -1,10 +1,10 @@
 header {
-  background-color: #121212;
+  background-color: #0096C7;
   position: relative;
 }
 header .container {
   padding: 15px 0;
-  background-color: #121212;
+  background-color: #0096C7;
   position: relative;
   z-index: 1;
 }
@@ -16,7 +16,7 @@ header .container {
   padding: 5px 10px;
   background-color: #f5c518;
   border-radius: 5px;
-  color: #121212;
+  color: #0096C7;
   margin-left: 10px;
   white-space: nowrap;
 }
@@ -42,7 +42,7 @@ header .container {
 }
 .menu-responsive ul li a {
   display: block;
-  background-color: #121212;
+  background-color: #0096C7;
   border-radius: 0;
   padding: 15px;
 }

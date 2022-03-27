@@ -1,5 +1,5 @@
 .menu {
-  background-color: #121212;
+  background-color: #0096C7;
 }
 
 /* Lista */
@@ -17,7 +17,7 @@ ul.menu li a {
   border-radius: 5px;
 }
 ul.menu li a:hover {
-  background-color: #252525;
+  background-color: #00B4D8;
 }
 
 /* Menú mobile */
