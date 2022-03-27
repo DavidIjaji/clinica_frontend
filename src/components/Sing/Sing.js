@@ -1,9 +1,9 @@
-import "./Login.css";
+import "./Sing";
 import { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { UserContext } from "../../contexts/UserContext";
 
-function Login() {
+function Sing() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -57,22 +57,14 @@ function Login() {
           />
           <span className="error">{}</span>
         </div>
-        <div className="form-control">
-          <label htmlFor="password1">Confirmar Contraseña</label>
-          <input
-            type="password1"
-            id="password1"
-            onChange={(e) => setPassword(e.target.value)}
-          />
-          <span className="error">{}</span>
-        </div>
+        
         
         <button type="submit" className="btn btn-dark">
-          Registarse
+          Iniciar Sesion
         </button>
       </form>
     </div>
   );
 }
 
-export default Login;
+export default Sing;

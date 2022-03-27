@@ -11,11 +11,12 @@ function Menu() {
         <Link to="cita">Pide tu cita</Link>
       </li>
       <li>
-        <Link to="inicio">Iniciar sesion</Link>
+        <Link to="inicio_sesion">Iniciar sesion</Link>
       </li>
       <li>
         <Link to="registro">Registrate</Link>
       </li>
+      
     </ul>
   );
 }
