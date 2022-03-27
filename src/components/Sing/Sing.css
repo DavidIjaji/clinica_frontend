@@ -1,0 +1,25 @@
+.form-login {
+    padding: 50px 30px;
+    background-color: #121212;
+    border-radius: 10px;
+    margin: 20px auto 0;
+    width: 500px;
+    max-width: 100%;
+  }
+  .form-login .form-control {
+    margin-bottom: 15px;
+  }
+  .form-login .form-control label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .form-login .form-control input {
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;
+  }
+  .form-login .btn {
+    margin-top: 13px;
+  }

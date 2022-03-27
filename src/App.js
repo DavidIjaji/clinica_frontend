@@ -5,7 +5,8 @@ import Login from "./components/Login/Login";
 import { UserContext } from "./contexts/UserContext";
 import { useState } from "react";
 import Inicio from "./components/Inicio/Inicio";
-
+import _Sign from "./components/Sing/Sing";
+import 
 function App() {
   const [user, setUser] = useState(JSON.parse(localStorage.getItem("user")));
   return (
@@ -15,7 +16,9 @@ function App() {
           <Route element={<Template />}>
             <Route path="/" element={<Navigate to="/inicio" replace />} />
             <Route path="inicio" element={<Inicio></Inicio>} />
-            <Route path="login" element={<Login></Login>} />
+            <Route path="login" element={<Login></Login>} />       
+            <Route path="registro" element={<Login></Login>} />
+            <Route path="inicio_sesion" element={<_Sign></_Sign>} />
           </Route>
           <Route path="*" element={<Navigate to="/error" replace />} />
         </Routes>
