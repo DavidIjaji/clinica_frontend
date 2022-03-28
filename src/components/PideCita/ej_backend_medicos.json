@@ -1,0 +1,19 @@
+{
+    "medicos":[
+        {
+            "id":"2212231232",
+            "nombres":"Juan Alberto",
+            "PrimerApellido":"Zuñiga"
+        },
+        {
+            "id":"83941232",
+            "nombres":"Jorge Alberto",
+            "PrimerApellido":"Benavides"
+        },
+        {
+            "id":"03948583",
+            "nombres":"Daniel Juan",
+            "PrimerApellido":"Alerbelaez"
+        }
+    ]
+}

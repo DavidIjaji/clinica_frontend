@@ -8,7 +8,7 @@ function Menu() {
         <Link to="inicio">Inicio</Link>
       </li>
       <li>
-        <Link to="cita">Pide tu cita</Link>
+        <Link to="pide_cita">Pide tu cita</Link>
       </li>
       <li>
         <Link to="inicio_sesion">Iniciar sesion</Link>

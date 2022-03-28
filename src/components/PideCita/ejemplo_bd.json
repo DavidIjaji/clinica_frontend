@@ -1,0 +1,35 @@
+[
+    {
+        "especialidad": "Medicina General",
+        "medicos":[
+            {
+                "medicoid":"120392019",
+                "nombre":"",
+                "apellido":"",
+                "fechaDisponible":[
+                    {
+                        "fecha":"24-04-2022",
+                        "horasDisponibles":[
+                            "06:00",
+                            "06:30",
+                            "07:00",
+                            "07:30",
+                            "14:00",
+                            "17:00"
+                        ]
+                    },
+                    {
+                        "fecha":"25-04-2022",
+                        "horasDisponibles":[
+                            "06:00",
+                            "06:30",
+                            "07:00",
+                            "14:00",
+                            "17:00"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
