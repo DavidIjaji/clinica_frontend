@@ -57,13 +57,13 @@ function PideCita() {
     })
     const fechas = fechasHorasItems.map((item) => {
         return (
-            <DropdownItem>{item.keys}</DropdownItem>
+            <DropdownItem>{item.dia}</DropdownItem>
         );
     })
-    //segun el día se escoge las fechas por ahora quemado lunes
+    //falta organizar para que filtre por el día escogido
     const horas = fechasHorasItems.map((item) => {
             return (
-                <DropdownItem>{item.lunes}</DropdownItem>
+                <DropdownItem>{item.horas.length}</DropdownItem>
             );
         
     })
