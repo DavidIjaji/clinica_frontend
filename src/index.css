@@ -32,12 +32,21 @@
 
 body {
   margin: 0;
+<<<<<<< HEAD
   font-family: "Roboto", sans-serif !important;
   font-weight: 400 !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
   color: #fff !important;
   background-color: #CAF0F8 !important;
+=======
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  background-color: #90E0EF;
+>>>>>>> fdde2b3 (feature(slider): slider in home page)
 }
 
 a {

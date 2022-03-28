@@ -1,12 +1,12 @@
 import "./Inicio.css";
+import Slider from "../Slider/Slider";
 
 function Inicio() {
   return (
     <section id="inicio">
       <div className="inicio_container">
-        <h1>Titulo</h1>
+      <Slider></Slider>
       </div>
-
     </section>
   );
 }

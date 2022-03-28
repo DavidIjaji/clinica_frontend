@@ -12,7 +12,7 @@ function OurDropdown(props) {
         <div className>
             <br /><br />
             <center>
-                <Dropdown isOpen={dropdown} toggle={abrircerrarDropdown} size="lg">
+                <Dropdown isOpen={dropdown} toggle={abrircerrarDropdown} size="sm">
                     <DropdownToggle caret>
                         {props.dropdownTitle}
                     </DropdownToggle>
