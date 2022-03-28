@@ -1,28 +1,28 @@
 .menu {
-  background-color: #0096C7;
+  background-color: #0096C7 !important;
 }
 
 /* Lista */
 ul.menu {
-  padding: 0;
-  margin: 0;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 ul.menu li {
-  list-style: none;
+  list-style: none !important;
 }
 ul.menu li a {
-  font-weight: bold;
-  font-size: 20px;
-  padding: 10px 15px;
-  border-radius: 5px;
+  font-weight: bold !important;
+  font-size: 20px !important;
+  padding: 10px 15px !important;
+  border-radius: 5px !important;
 }
 ul.menu li a:hover {
-  background-color: #00B4D8;
+  background-color: #00B4D8 !important;
 }
 
 /* Menú mobile */
 @media screen and (max-width: 768px) {
   .menu {
-    flex-direction: column;
+    flex-direction: column !important;
   }
 }

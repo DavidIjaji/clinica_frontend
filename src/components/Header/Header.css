@@ -1,66 +1,66 @@
 header {
-  background-color: #0096C7;
-  position: relative;
+  background-color: #0096C7 !important;
+  position: relative !important;
 }
 header .container {
-  padding: 15px 0;
-  background-color: #0096C7;
-  position: relative;
-  z-index: 1;
+  padding: 15px 0 !important;
+  background-color: #0096C7 !important;
+  position: relative !important;
+  z-index: 1 !important;
 }
 
 /* Logo */
 .logo {
-  font-family: "Fredoka One", cursive;
-  font-size: 32px;
-  padding: 5px 10px;
-  background-color: #f5c518;
-  border-radius: 5px;
-  color: #0096C7;
-  margin-left: 10px;
-  white-space: nowrap;
+  font-family: "Fredoka One", cursive !important;
+  font-size: 32px !important;
+  padding: 5px 10px !important;
+  background-color: #f5c518 !important;
+  border-radius: 5px !important;
+  color: #0096C7 !important;
+  margin-left: 10px !important;
+  white-space: nowrap !important;
 }
 
 /* Menú responsive */
 .btn-menu-responsive {
-  display: none;
-  margin-right: 10px;
-  font-size: 20px;
+  display: none !important;
+  margin-right: 10px !important;
+  font-size: 20px !important;
 }
 .menu-responsive {
-  display: none;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  transition: all 0.5s ease;
+  display: none !important;
+  position: absolute !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  transition: all 0.5s ease !important;
 }
 .menu-responsive.open {
-  bottom: -180px; /* ¿cómo hacer para que este valor no este quemado? */
+  bottom: -180px !important; /* ¿cómo hacer para que este valor no este quemado? */
 }
 .menu-responsive ul li {
-  border-top: 1px solid #000;
+  border-top: 1px solid #000 !important;
 }
 .menu-responsive ul li a {
-  display: block;
-  background-color: #0096C7;
-  border-radius: 0;
-  padding: 15px;
+  display: block !important;
+  background-color: #0096C7 !important;
+  border-radius: 0 !important;
+  padding: 15px !important;
 }
 
 .btn-login {
-  margin: 0 10px;
-  font-size: 20px;
+  margin: 0 10px !important;
+  font-size: 20px !important;
 }
 
 /* Menú mobile */
 @media screen and (max-width: 768px) {
   header {
-    padding-bottom: 0;
+    padding-bottom: 0 !important;
   }
   .btn-menu-responsive {
-    display: block;
+    display: block !important;
   }
   .menu-responsive {
-    display: block;
+    display: block !important;
   }
 }

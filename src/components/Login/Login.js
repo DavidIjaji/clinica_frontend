@@ -6,6 +6,7 @@ import { UserContext } from "../../contexts/UserContext";
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  //const [password1, setPassword] = useState("");
 
   const { setUser } = useContext(UserContext);
 
@@ -20,11 +21,13 @@ function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
 
     // Validar los campos, que no sean nulos o vacios y que sea un email válido, etc...
 
     console.log("email", email);
     console.log("password", password);
+    //console.log("password1", password1);
     login(email, password)
       .then((user) => {
         // login del usuario en local
@@ -35,6 +38,7 @@ function Login() {
       .catch((err) => {
         // mostraria al usuario que el login falló
       });
+      
   };
 
   return (
@@ -60,7 +64,7 @@ function Login() {
         <div className="form-control">
           <label htmlFor="password1">Confirmar Contraseña</label>
           <input
-            type="password1"
+            type="password"
             id="password1"
             onChange={(e) => setPassword(e.target.value)}
           />
