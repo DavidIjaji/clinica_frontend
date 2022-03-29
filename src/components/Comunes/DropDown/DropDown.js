@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Dropdown, DropdownItem, DropdownMenu, DropdownToggle } from 'reactstrap';
+import './DropDown.css';
 
 function OurDropdown(props) {
     const [dropdown, setDropdown] = useState(false);
@@ -8,16 +9,16 @@ function OurDropdown(props) {
     const abrircerrarDropdown = () => {
         setDropdown(!dropdown);
     }
+
     return (
-        <div className>
-            <br /><br />
+        <div className="dropdown">
             <center>
                 <Dropdown isOpen={dropdown} toggle={abrircerrarDropdown} size="sm">
-                    <DropdownToggle caret>
+                    <DropdownToggle caret >
                         {props.dropdownTitle}
                     </DropdownToggle>
                     <DropdownMenu>
-                        <DropdownItem header>{props.dropdownHeader}</DropdownItem>
+                        <DropdownItem class = "dd-header" header>{props.dropdownHeader}</DropdownItem>
                         {props.dropdownItems}
                     </DropdownMenu>
                 </Dropdown>
