@@ -61,7 +61,7 @@ function PideCita() {
         );
     })
     //falta organizar, por ahora con el dia quemado
-    var horas = fechasHorasItems.map((item) => {
+    const horas = fechasHorasItems.map((item) => {
         if(item.dia == "martes"){
             item.horas.map((itemH)=>{
                 return (
