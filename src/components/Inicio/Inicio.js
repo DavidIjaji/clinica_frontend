@@ -1,5 +1,6 @@
 import "./Inicio.css";
 import Slider from "../Slider/Slider";
+import {Table} from 'reactstrap'
 
 function Inicio() {
   return (
@@ -9,7 +10,7 @@ function Inicio() {
       </div>
       <div class="div2">
         <center>
-        <table className="table1">
+        <Table className="table1" borderless="true" hover="true" responsive="sm">
         
             <tr>
               <th scope="col">Atención al ciudadano</th>
@@ -54,7 +55,7 @@ function Inicio() {
               <br></br>
               <td></td>
             </tr>
-        </table>
+        </Table>
         </center>
       </div>
     </section>

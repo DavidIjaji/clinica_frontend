@@ -62,7 +62,7 @@ function PideCita() {
     })
     //falta organizar, por ahora con el dia quemado
     const horas = fechasHorasItems.map((item) => {
-        if(item.dia == "martes"){
+        if(item.dia === "martes"){
             item.horas.map((itemH)=>{
                 return (
                     <DropdownItem>{itemH.hora}</DropdownItem>//error entrega indefinido

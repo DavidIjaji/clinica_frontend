@@ -8,13 +8,17 @@ header .container {
   position: relative !important;
   z-index: 1 !important;
 }
+.responsiveLogo {
+  width: 150px;
+  height: auto;
+}
 
 /* Logo */
 .logo {
   font-family: "Fredoka One", cursive !important;
   font-size: 32px !important;
-  padding: 5px 10px !important;
-  background-color: #f5c518 !important;
+  padding: 2px 2px !important;
+  background-color: #ADE8F4 !important;
   border-radius: 5px !important;
   color: #0096C7 !important;
   margin-left: 10px !important;
@@ -62,5 +66,19 @@ header .container {
   }
   .menu-responsive {
     display: block !important;
+  }
+  .responsiveLogo {
+    width: 70px;
+    height: auto;
+  }
+  .logo {
+    font-family: "Fredoka One", cursive !important;
+    font-size: 20px !important;
+    padding: 1px 1px !important;
+    background-color: #ADE8F4 !important;
+    border-radius: 5px !important;
+    color: #0096C7 !important;
+    margin-left: 10px !important;
+    white-space: nowrap !important;
   }
 }

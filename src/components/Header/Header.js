@@ -24,7 +24,7 @@ function Header() {
     <header>
       <div className="container flex justify-space-between align-center">
         <Link to="/" className="logo">
-          Movies DB
+        <img src="https://www.solex.biz/wp-content/uploads/2019/02/clinicaalemana-300x143.png" alt="logo_clinica" class="responsiveLogo"></img>
         </Link>
         <div className="flex flex.align-cente">
           <Navigation></Navigation>
